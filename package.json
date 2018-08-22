@@ -1,7 +1,7 @@
 {
   "name": "fbprojects",
   "version": "0.1.0",
-  "homepage": "https://rominamoya.github.io/github-projects/",
+  "homepage": "https://rominamoya.github.io/listing/",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy":"gh-pages -d public",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

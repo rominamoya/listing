@@ -37,6 +37,12 @@ $ npm run start
 ```
 and  browse to the app at `http://localhost:8080/`.
 
+### OR
+
+Simple access the demo page
+
+[https://https://rominamoya.github.io/listing/](https://rominamoya.github.io/listing/)
+
 ### Run the Tests
 
 A server Task have been preconfigured, so just run
@@ -44,3 +50,4 @@ A server Task have been preconfigured, so just run
 ```
 $ npm run test
 ```
+
