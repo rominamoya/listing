@@ -1,0 +1,30 @@
+{
+  "name": "fbprojects",
+  "version": "0.1.0",
+  "homepage": "https://rominamoya.github.io/github-projects/",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.2",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga": "^0.16.0",
+    "semantic-ui-react": "^0.82.2",
+    "gh-pages": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "deploy":"gh-pages -d public",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
