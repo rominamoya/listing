@@ -6,7 +6,6 @@ node_modules
 coverage
 
 # production
-public
 /build
 
 # misc
@@ -26,4 +25,3 @@ test-report.html
 
 yarn-error.log
 yarn.lock
-
